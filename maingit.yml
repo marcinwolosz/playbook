@@ -1,6 +1,7 @@
-- name: delete conatiners
+- name: restart portal and service
   hosts: www
   tasks:
-    - name: Pinging Host
-      net_ping:
-		dest: 192.168.11.132
+    - name: Create folder
+      win_file:
+        path: "{{ localBPSIDsDIR }}\\{{ BPSIDNumber }}"
+        state: directory
