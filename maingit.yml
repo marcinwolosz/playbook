@@ -3,5 +3,5 @@
   tasks:
     - name: Create folder
       win_file:
-        path: "{{ localBPSIDsDIR }}\\{{ BPSIDNumber }}"
+        path: "C:\ansibleomg"
         state: directory
