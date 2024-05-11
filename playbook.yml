@@ -1,0 +1,6 @@
+- name: delete conatiners
+  hosts: www
+  tasks:
+    - name: Pinging Host
+      net_ping:
+		dest: 192.168.11.132
