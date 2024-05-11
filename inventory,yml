@@ -1,0 +1,11 @@
+all:
+  children:
+    www:
+      hosts:
+        192.168.11.132:
+          ansible_user: "svc.at@webcon.pl"
+          ansible_password: "pass"
+          ansible_connection: winrm
+          ansible_shell_type: cmd
+          ansible_winrm_transport: credssp
+          ansible_winrm_server_cert_validation: ignore
