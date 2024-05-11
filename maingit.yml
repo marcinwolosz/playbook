@@ -1,7 +1,7 @@
-- name: restart portal and service
+- name: createfolder
   hosts: www
   tasks:
     - name: Create folder
       win_file:
-        path: "C:\ansibleomg"
+        path: C:\ansibleOMG
         state: directory
