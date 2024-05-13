@@ -2,7 +2,7 @@ all:
   children:
     www:
       hosts:
-        192.168.11.132:
+        at-bps02.webcon.pl:
           ansible_user: "svc.at@webcon.pl"
           ansible_password: !vault |
             $ANSIBLE_VAULT;1.1;AES256
