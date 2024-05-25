@@ -3,5 +3,5 @@
   tasks:
     - name: Create folder4
       win_file:
-        path: C:\ansibleOMG
+        path: C:\ansibleOMGG
         state: directory
