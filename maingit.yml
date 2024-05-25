@@ -1,7 +1,7 @@
 - name: createfolder
   hosts: www
   tasks:
-    - name: Create folder
+    - name: Create folder2
       win_file:
         path: C:\ansibleOMG
         state: directory
